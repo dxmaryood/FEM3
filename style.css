@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pattern {
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  z-index: -1;
+}
+
+
+main {
+  width: auto;
+  border-radius: 15px;
+  background-color: white;
+  color: hsl(223, 47%, 23%);
+  font-size: 16px;
+}
+
+.top {
+  background-image: url(images/illustration-hero.svg);
+  background-size: cover;
+  background-position: left;
+  height: 200px;
+  border-radius: 15px 15px 0 0;
+}
+
+.bottom {
+  padding: 30px;
+  text-align: center;
+}
+
+.annual-plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsla(225, 100%, 94%, 30%);
+  border-radius: 10px;
+  padding: 15px;
+  margin-block: 30px;
+}
+
+.left {
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon{
+  height: 100%;
+  padding-right: 10px;
+}
+
+
+p {
+  padding: 0px;
+  margin: 0;
+  color: hsl(224, 23%, 55%);
+}
+
+.subtext {
+  line-height: 180%;
+}
+
+h1 {
+  padding-bottom: 20px;
+  margin: 0;
+  font-size: 20px;
+}
+
+.plan {
+  color:  hsl(223, 47%, 23%);
+  padding-bottom: 5px;
+}
+
+a {
+  color: hsl(245, 75%, 52%);
+  font-size: 14px;
+}
+
+button{
+  padding: 15px;
+  font-family: 'Red Hat Display';
+  font-weight: 700;
+  font-size: 16px;
+  width: 100%;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  border: none;
+  box-shadow: 0px 15px 20px hsla(245, 75%, 52%, 25%);
+}
+
+
+.cancel-order {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 375px) {
+  main{
+     max-width: 400px;
+  }
+}
